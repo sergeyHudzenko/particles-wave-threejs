@@ -18,7 +18,7 @@ const scene = new THREE.Scene()
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const texture = textureLoader.load('/textures/particles/11.png')
+const texture = textureLoader.load(`${import.meta.env.BASE_URL}textures/particles/11.png`)
 
 /**
  * Particles
